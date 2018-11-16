@@ -8,9 +8,5 @@ namespace CCC
 {
     static class Birngruber
     {
-        static void function()
-        {
-
-        }
     }
 }
