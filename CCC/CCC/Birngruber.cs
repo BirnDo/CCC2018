@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CCC
 {
-    class Birngruber
+    static class Birngruber
     {
+        static void function()
+        {
+
+        }
     }
 }
