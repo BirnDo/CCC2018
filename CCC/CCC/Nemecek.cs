@@ -8,6 +8,12 @@ namespace CCC
 {
     static class Nemecek
     {
+        class Buildings
+        {
+            public int height;
+            public int size;
+        }
+
         public static bool ifBuildings()
         {
             
@@ -16,6 +22,8 @@ namespace CCC
         public static string SizeBuilding(int[,])
         {
 
+
+            return solution
         }
     }
 }
