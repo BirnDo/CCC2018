@@ -10,19 +10,24 @@ namespace CCC
         static void Main(string[] args)
         {
             int [,] split0 = Hofer.Einlesen("../../level2/level2_0.in");
-            Nemecek.SizeBuilding(split0);
+            string output = Nemecek.SizeBuilding(split0);
+            Birngruber.Ausgabe(output, "../../level2/level2_0.out");
 
             int[,] split1 = Hofer.Einlesen("../../level2/level2_1.in");
-            Nemecek.ifBuildings(split0);
+            output = Nemecek.SizeBuilding(split0);
+            Birngruber.Ausgabe(output, "../../level2/level2_1.out");
 
             int[,] split2 = Hofer.Einlesen("../../level2/level2_2.in");
-            Nemecek.ifBuildings(split0);
+            output = Nemecek.SizeBuilding(split0);
+            Birngruber.Ausgabe(output, "../../level2/level2_2.out");
 
             int[,] split3 = Hofer.Einlesen("../../level2/level2_3.in");
-            Nemecek.ifBuildings(split0);
+            output = Nemecek.SizeBuilding(split0);
+            Birngruber.Ausgabe(output, "../../level2/level2_3.out");
 
             int[,] split4 = Hofer.Einlesen("../../level2/level2_4.in");
-            Nemecek.ifBuildings(split0);
+            output = Nemecek.SizeBuilding(split0);
+            Birngruber.Ausgabe(output, "../../level2/level2_4.out");
         }
     }
 }
