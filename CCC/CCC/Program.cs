@@ -10,19 +10,19 @@ namespace CCC
     {
         static void Main(string[] args)
         {
-            int [] split0 = Einlesen("level1/level1_0.in");
+            int [] split0 = Einlesen("../../level2/level2_0.in");
             ifBuildings(split0);
 
-            int[] split1 = Einlesen("level1/level1_1.in");
+            int[] split1 = Einlesen("../../level2/level2_1.in");
             ifBuildings(split0);
 
-            int[] split2 = Einlesen("level1/level1_2.in");
+            int[] split2 = Einlesen("../../level2/level2_2.in");
             ifBuildings(split0);
 
-            int[] split3 = Einlesen("level1/level1_3.in");
+            int[] split3 = Einlesen("../../level2/level2_3.in");
             ifBuildings(split0);
 
-            int[] split4 = Einlesen("level1/level1_4.in");
+            int[] split4 = Einlesen("../../level2/level2_4.in");
             ifBuildings(split0);
         }
     }

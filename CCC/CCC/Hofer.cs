@@ -23,6 +23,20 @@ namespace CCC
 
             InString = Input.Split('\n');
 
+            for (int i = 1; InString[i+1] != null; i++)
+            {
+                string s = InString[i];
+
+                string[] s1 = new string[1000];
+
+                s1 = s.Split(' ');
+
+                for (int j = 0; s1[j + 1] != null; j++)
+                {
+                    Output[i, j] = Convert.ToInt16(s1[j]);
+                }
+            } 
+
             return Output;
         }
     }   
