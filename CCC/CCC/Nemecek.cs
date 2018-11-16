@@ -8,9 +8,9 @@ namespace CCC
 {
     static class Nemecek
     {
-        public static void test();
+        public static bool ifBuildings()
         {
-
+            
         }
     }
 }
