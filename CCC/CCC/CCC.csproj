@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Birngruber.cs" />
+    <Compile Include="Buildings.cs" />
     <Compile Include="Hofer.cs" />
     <Compile Include="Nemecek.cs" />
     <Compile Include="Program.cs" />

@@ -16,5 +16,22 @@ namespace CCC
             streamWriter.Write(s);
         }
 
+        public static string SortBuildings(List<Buildings> list)
+        {
+            string output = "";
+            int i = 0;
+
+            list.Sort();
+
+            foreach(Buildings building in list)
+            {
+                output += (i + building.size);
+                i++;
+            }
+
+            return output;
+        }
+        
+
     }
 }
