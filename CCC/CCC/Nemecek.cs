@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CCC
 {
-    class Nemecek
+    static class Nemecek
     {
+        public static void test ()
+        {
+
+        }
     }
 }
