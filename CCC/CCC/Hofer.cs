@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace CCC
 {
-    class Hofer
+    static class Hofer
     {
+        public static void Test()
+        {
+            Console.WriteLine("Hallo Hofer");
+        } 
     }
 }
