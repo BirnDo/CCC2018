@@ -3,14 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace CCC
 {
     static class Hofer
     {
-        public static void Test()
+    
+        static public int[,] Einlesen(string path)
         {
-            Console.WriteLine("Hallo Hofer");
-        } 
-    }
+            string Input;
+            int[,] Output = new int[3000, 3000];
+
+            StreamReader reader = new StreamReader(path);
+            
+            Input = reader.ReadToEnd();
+            reader.Close();
+
+
+
+            return Output;
+        }
+    }   
 }
