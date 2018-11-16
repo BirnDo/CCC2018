@@ -32,6 +32,24 @@ namespace CCC
             return output;
         }
         
+        public static int[] getXY (int[,] input)
+        {
+            int x=0;
+            int y=0;
 
+            for (int i = 0, j = 0; input[i+1,j+1] != 0; i++)
+            {
+                while (input[i, j] != 0)
+                {
+                    x = j;
+                    j++;
+                }
+                y = i;
+            }
+
+            int[] output = { x, y };
+
+            return output;
+        }
     }
 }
