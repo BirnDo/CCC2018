@@ -6,11 +6,6 @@ using System.Threading.Tasks;
 
 namespace CCC
 {
-    public class Buildings
-    {
-        public int height;
-        public int size;
-    }
 
 
     static class Nemecek
