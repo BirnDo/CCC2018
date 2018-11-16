@@ -12,5 +12,10 @@ namespace CCC
         {
             
         }
+
+        public static string SizeBuilding(int[,])
+        {
+
+        }
     }
 }
