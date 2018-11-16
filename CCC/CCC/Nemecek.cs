@@ -19,11 +19,13 @@ namespace CCC
             
         }
 
-        public static string SizeBuilding(int[,])
+        public static List<Buildings> SizeBuilding(int[,])
         {
+            List<Buildings> buildings = new List<Buildings>();
 
 
-            return solution
+
+            return buildings;
         }
     }
 }
