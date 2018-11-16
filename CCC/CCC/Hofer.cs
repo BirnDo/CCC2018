@@ -13,6 +13,7 @@ namespace CCC
         static public int[,] Einlesen(string path)
         {
             string Input;
+            string[] InString = new string[10000];
             int[,] Output = new int[3000, 3000];
 
             StreamReader reader = new StreamReader(path);
@@ -20,7 +21,7 @@ namespace CCC
             Input = reader.ReadToEnd();
             reader.Close();
 
-
+            InString = Input.Split('\n');
 
             return Output;
         }
